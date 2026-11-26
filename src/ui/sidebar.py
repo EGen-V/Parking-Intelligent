@@ -29,7 +29,8 @@ class Sidebar(tk.Frame):
             text="Parking Intelligent",
             fg="#ffffff",
             bg=config.COLOR_SIDEBAR,
-            font=(config.FONT_FAMILY, 13, "bold"),
+            # 11pt keeps the title inside the 248px sidebar (13pt clips it).
+            font=(config.FONT_FAMILY, 11, "bold"),
             anchor="w",
         ).place(x=64, y=24)
         tk.Label(
