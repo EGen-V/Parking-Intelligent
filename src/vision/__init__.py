@@ -1,0 +1,1 @@
+"""Vision pipeline (detection, plate localization, OCR). No tkinter."""

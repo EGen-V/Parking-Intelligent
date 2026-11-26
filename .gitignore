@@ -1,0 +1,24 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+venv/
+data/parking.db
+data/parking_test.db
+data/captures/
+data/captures_test/
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.cfg
+models/*.weights
+models/*.names
+models/*.download
+models/easyocr/
+# Build output and bundled media
+build/
+dist/
+# Local demonstration videos (large, not source)
+test-video/
+# Editor/agent tooling, not part of the deliverable
+.agents/

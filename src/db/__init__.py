@@ -1,0 +1,1 @@
+"""Database layer (SQLite). Must not import tkinter."""
